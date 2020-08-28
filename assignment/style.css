@@ -1,11 +1,71 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: table;
+}
 /* Give your page a fun background color */
-
+body {
+background-color: #65b6d6;
+}
 /* Make the header and footer a different color from the background */
-
+.site-header{
+  background: #575e61;
+  color: #000000;
+  padding: 2px 5%;
+  box-shadow: 0px 3px 6px #999;
+}
+.site-footer{
+  display: table-row;
+  height: 0;
+  position: static;
+  background: #575e61;
+  color: #000000;
+  padding: 2px 5%;
+}
 /* Align the h1 containing your name in the center of the header*/
-
+.site-header h1{
+  color: #65b6d6;
+  text-shadow: 4px 2px black;
+  margin: 30px;
+  font-size: 36px;
+  text-align: center;
+}
+.about-me{
+  background: #65b6d6;
+  width: 50%;
+  padding: 20px 2.55;
+  margin-bottom: 40px;
+}
 /* Make your p tag a different color and italic */
-
+p{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-style: italic;
+  margin: 20px;
+}
 /* Put a border around your image */
-
+.main-img{
+  width: 280px;
+  height: 330px;
+  border: 5px solid #999;
+  margin: 60px 0px 40px 15px;
+}
+.fun-facts{
+  font-size: 28px;
+}
 /* Change the font-family of your list */
+ul{
+  list-style-type: square;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 20px;
+  margin: 30px 0px 30px 0px;
+}
+
+.quote{
+  color: #65b6d6;
+  text-align: center;
+  font-size: 25px;
+  margin: 25px;
+}
